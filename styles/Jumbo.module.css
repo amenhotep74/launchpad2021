@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.header_text {
+  font-weight: 400;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header_text_highlight {
+  font-family: "Open Sans", sans-serif;
+  color: #e17c67 !important;
+  font-weight: 500;
+}
+.subtext {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button_grouping {
+  display: flex;
+  align-items: center;
+}
+.see_our_work {
+  margin: 0;
+  margin-left: 20px;
+}
+.text_left {
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .text_left {
+    width: 100%;
+  }
+}

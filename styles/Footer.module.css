@@ -1,0 +1,31 @@
+.foot {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #333333;
+}
+.logo {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.logo2 {
+  font-weight: 400;
+}
+.footer_nav_links {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_social_links {
+  display: flex;
+}
+
+.icon_yt {
+  margin-right: 10px;
+}
+.icon_instagram {
+  margin-right: 10px;
+}
+
+.icon_fb {
+  margin-right: 10px;
+}

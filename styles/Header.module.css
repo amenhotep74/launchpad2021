@@ -1,0 +1,43 @@
+.nav_link_a {
+  color: white;
+}
+.logo {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.logo2 {
+  font-weight: 400;
+}
+.header {
+  background: #24213b;
+  color: white;
+  /* margin-bottom: 3rem; */
+}
+.nav_link_a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.mobile_menu_container_btn {
+  border: none;
+  background: none;
+  display: none;
+}
+
+.mobile_menu_tgl {
+  width: 40px;
+  height: 40px;
+}
+
+/* Set menu to only toggle for mobile */
+/* And hide menu */
+@media only screen and (max-width: 380px) {
+  .mobile_menu_container_btn {
+    display: inline-block;
+  }
+  .nav_links_inner {
+    display: none;
+  }
+}
