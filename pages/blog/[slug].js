@@ -5,10 +5,11 @@ import marked from "marked";
 import Link from "next/link";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import styles from "../../styles/Index.module.css";
+import styles from "../../styles/Slug.module.scss";
 import { useState } from "react";
+
 export default function PostPage({
-  frontmatter: { title, date, cover_image },
+  frontmatter: { title, date, cover_image, time_to_read, banner_image },
   slug,
   content,
 }) {
@@ -49,28 +50,33 @@ export default function PostPage({
         <Header isOpen={isOpen} openMenu={openMenu} />
       </div>
       {/* Start of content */}
+      <div
+        className="container mt-5"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <img src={banner_image} class={styles.banner_image} />
+      </div>
 
-      <div class="container mt-5">
-        <img
-          src={cover_image}
-          alt=""
-          style={{
-            repeat: "no-repeat",
-            objectFit: "cover",
-            height: "350px",
-            width: "100%",
-            backgroundPosition: "center",
-          }}
-        />
+      <div className="container">
+        <div className={styles.text_container}>
+          <header className="blog-post-header">
+            <h2 className="title mb-2">{title}</h2>
+            <div className="meta mb-3">
+              <span className={styles.date}>{date} </span>
+              <span className={styles.time}> {time_to_read} read</span>
+            </div>
+          </header>
 
-        <div class="mt-3">
-          <h1 style={{ textAlign: "center", fontFamily: "600" }}>{title}</h1>
-          <p style={{ textAlign: "center", fontFamily: "400" }}>{date}</p>
-
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <div
+            className="blog-post-body mt-3"
+            dangerouslySetInnerHTML={{ __html: marked(content) }}
+          ></div>
         </div>
+
+        <div className="promo-section theme-bg-light py-5 text-center"></div>
       </div>
       {/* End of content */}
+
       {/* <Link href="/">
         <a className="">Go Back</a>
       </Link>

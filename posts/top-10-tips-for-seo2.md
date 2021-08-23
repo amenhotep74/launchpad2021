@@ -2,7 +2,8 @@
 title: "Top 10 tips for seo2"
 date: "18 August 2021"
 excerpt: "This is the excerpt 2"
-cover_image: "/images/blog.png"
+cover_image: "/images/thumbnail.jpg"
+time_to_read: "5 minute"
 ---
 
 ## Heading Two

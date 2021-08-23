@@ -3,6 +3,7 @@ import styles from "../styles/Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // Import the fontawesomeIcon component
 import { faInstagram } from "@fortawesome/free-solid-svg-icons";
+import { NewsletterSubscribe } from "../components/newsletter/NewsletterSubscribe";
 
 export const Footer = () => {
   const router = useRouter();
@@ -67,6 +68,7 @@ export const Footer = () => {
               <h4 style={{ color: "white", textAlign: "center" }}>
                 Get in touch.
               </h4>
+              {/* Form here */}
               <form>
                 <label
                   style={{ color: "#FFFFFF", textAlign: "left !important" }}
@@ -77,7 +79,7 @@ export const Footer = () => {
                 </label>
 
                 <input
-                  type="text"
+                  type="email"
                   className="form-control"
                   id="name"
                   aria-describedby="name"
@@ -90,7 +92,6 @@ export const Footer = () => {
                     border: "none",
                   }}
                   className="btn header_btn mt-3"
-                  type="submit"
                 >
                   Submit
                 </button>
