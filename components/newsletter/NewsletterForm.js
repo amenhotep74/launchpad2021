@@ -52,7 +52,7 @@ export const NewsletterForm = ({ status, message, onValidated }) => {
         <div className="input-group mb-3 mt-4">
           <label
             style={{ color: "#FFFFFF", textAlign: "left !important" }}
-            for="exampleInputEmail1"
+            htmlFor="exampleInputEmail1"
             className="form-label"
           >
             Newsletter

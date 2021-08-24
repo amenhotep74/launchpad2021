@@ -72,7 +72,7 @@ export const Footer = () => {
               <form>
                 <label
                   style={{ color: "#FFFFFF", textAlign: "left !important" }}
-                  for="exampleInputEmail1"
+                  htmlFor="exampleInputEmail1"
                   className="form-label"
                 >
                   Newsletter
