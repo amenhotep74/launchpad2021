@@ -1,8 +1,5 @@
 import Head from "next/head";
 import { useState } from "react";
-import svensIsland from "../public/images/svensisland.png";
-import angela2 from "../public/images/angela2.png";
-import femme from "../public/images/femme.png";
 import Link from "next/link";
 import { Header } from "../components/Header";
 import { Jumbo } from "../components/Jumbo";
