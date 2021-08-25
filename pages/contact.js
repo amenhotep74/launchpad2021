@@ -38,6 +38,7 @@ export default function Contact() {
         setError(false);
         setSuccessAlert(true);
       } else {
+        console.log(response);
         setError(true);
       }
     });
