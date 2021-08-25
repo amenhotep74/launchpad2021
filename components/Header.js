@@ -38,6 +38,7 @@ export const Header = (props) => {
                   className={styles.mobile_menu_container_btn}
                 >
                   <img
+                    alt="menu_icon"
                     src="/icons/bars-solid.svg"
                     className={styles.mobile_menu_tgl}
                   />

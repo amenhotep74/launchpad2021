@@ -48,7 +48,7 @@ export const NewsletterForm = ({ status, message, onValidated }) => {
   return (
     // Return actual front end code for the form here
     <>
-      <div class={styles.newsletterwrapper}>
+      <div className={styles.newsletterwrapper}>
         <div className="input-group mb-3 mt-4">
           {/* <label
             style={{ color: "#FFFFFF", textAlign: "left !important" }}
@@ -73,7 +73,7 @@ export const NewsletterForm = ({ status, message, onValidated }) => {
               color: "#FFFFFF",
               border: "none",
             }}
-            class={styles.newsletter_btn}
+            className={styles.newsletter_btn}
             onClick={handleFormSubmit}
             type="button"
           >

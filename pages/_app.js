@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
           src="https://kit.fontawesome.com/d60d3e1a74.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </Head>
       <Component {...pageProps} />

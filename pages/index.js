@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { useState } from "react";
 import svensIsland from "../public/images/svensisland.png";
 import angela2 from "../public/images/angela2.png";
@@ -27,7 +26,11 @@ export default function Home() {
       {isOpen && (
         <div className={styles.overlay}>
           <button onClick={closeMenu} className={styles.btn_close}>
-            <img src="/icons/times-solid.svg" className={styles.times} />
+            <img
+              src="/icons/times-solid.svg"
+              className={styles.times}
+              alt="close_menu"
+            />
           </button>
 
           <div className={styles.megamenu_container}>
@@ -64,8 +67,8 @@ export default function Home() {
               <a href="https://svensisland.com/">
                 <img
                   src="/images/svensisland.png"
-                  alt=""
                   style={{ objectFit: "cover", width: "100%", height: "auto" }}
+                  alt="website_preview"
                 />
               </a>
             </div>
@@ -83,8 +86,8 @@ export default function Home() {
               <a href="https://www.angelacameron.com/">
                 <img
                   src="/images/angela2.png"
-                  alt=""
                   style={{ objectFit: "cover", width: "100%", height: "auto" }}
+                  alt="website_preview"
                 />
               </a>
             </div>
@@ -102,8 +105,8 @@ export default function Home() {
               <a href="https://femmeorganic.com/">
                 <img
                   src="/images/femme.png"
-                  alt=""
                   style={{ objectFit: "cover", width: "100%", height: "auto" }}
+                  alt="website_preview"
                 />
               </a>
             </div>
@@ -132,6 +135,7 @@ export default function Home() {
                   <img
                     src="/icons/rocket-solid.svg"
                     className={styles.rocket}
+                    alt="rocket_icon"
                   />
                 </p>
                 <p>
@@ -150,6 +154,7 @@ export default function Home() {
                   <img
                     src="/icons/chart-line-solid.svg"
                     className={styles.rocket}
+                    alt="rocket_icon"
                   />
                 </p>
                 <p>

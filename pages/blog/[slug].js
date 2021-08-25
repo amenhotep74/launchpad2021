@@ -29,7 +29,11 @@ export default function PostPage({
       {isOpen && (
         <div className={menu.overlay}>
           <button onClick={closeMenu} className={menu.btn_close}>
-            <img src="/icons/times-solid.svg" className={menu.times} />
+            <img
+              alt="close_menu"
+              src="/icons/times-solid.svg"
+              className={menu.times}
+            />
           </button>
 
           <div className={menu.megamenu_container}>
@@ -55,7 +59,11 @@ export default function PostPage({
         className="container mt-5"
         style={{ display: "flex", justifyContent: "center" }}
       >
-        <img src={banner_image} class={styles.banner_image} />
+        <img
+          alt="blog_banner"
+          src={banner_image}
+          className={styles.banner_image}
+        />
       </div>
 
       <div className="container">

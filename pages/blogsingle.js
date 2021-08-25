@@ -1,8 +1,7 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { Header } from "../components/Header";
-import styles from "../styles/Blog.module.css";
+import styles from "../styles/Blog.module.scss";
 import menu from "../styles/Index.module.css";
 import blogimg from "../public/images/blog.png";
 const Blogsingle = () => {
@@ -22,7 +21,11 @@ const Blogsingle = () => {
       {isOpen && (
         <div className={menu.overlay}>
           <button onClick={closeMenu} className={menu.btn_close}>
-            <img src="/icons/times-solid.svg" className={menu.times} />
+            <img
+              src="/icons/times-solid.svg"
+              className={menu.times}
+              alt="close_menu"
+            />
           </button>
 
           <div className={menu.megamenu_container}>

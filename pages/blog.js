@@ -29,7 +29,11 @@ const Blog = ({ posts }) => {
       {isOpen && (
         <div className={menu.overlay}>
           <button onClick={closeMenu} className={menu.btn_close}>
-            <img src="/icons/times-solid.svg" className={menu.times} />
+            <img
+              src="/icons/times-solid.svg"
+              className={menu.times}
+              alt="close_menu"
+            />
           </button>
 
           <div className={menu.megamenu_container}>
@@ -52,11 +56,11 @@ const Blog = ({ posts }) => {
 
       {/* Blog Archive */}
 
-      <div class="main-wrapper">
-        <section class="cta-section theme-bg-light py-5">
-          <div class="container text-center single-col-max-width">
-            <h2 class="heading">Recent Posts</h2>
-            <div class="intro">
+      <div className="main-wrapper">
+        <section className="cta-section theme-bg-light py-5">
+          <div className="container text-center single-col-max-width">
+            <h2 className="heading">Recent Posts</h2>
+            <div className="intro">
               Welcome to my blog. Subscribe and get my latest blog post in your
               inbox.
             </div>
@@ -104,8 +108,8 @@ const Blog = ({ posts }) => {
           </div>
         </section>
 
-        <section class="blog-list px-3 pb-5 p-md-5">
-          <div class="container single-col-max-width">
+        <section className="blog-list px-3 pb-5 p-md-5">
+          <div className="container single-col-max-width">
             <div className={styles.blog_post_container}>
               {posts.map((post, index) => (
                 <Post key={index} post={post} />

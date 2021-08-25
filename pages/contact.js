@@ -113,8 +113,8 @@ export default function Contact() {
               Tell us about your project
             </label>
             <div id="emailHelp" className="form-text mb-2">
-              Please tell us a bit about what your looking for, what you're want
-              to achieve, timeline etc.
+              Please tell us a bit about what your looking for, what you want to
+              achieve, timeline etc.
             </div>
             <textarea
               type="details"
