@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import styles from "../../styles/Slug.module.scss";
+import menu from "../../styles/Index.module.css";
 import { useState } from "react";
 
 export default function PostPage({

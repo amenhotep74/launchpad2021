@@ -50,7 +50,7 @@ export default function Home() {
         <Jumbo />
       </div>
       {/* Work */}
-      <div className={styles.work}>
+      <div id="work" className={styles.work}>
         <div className="container mb-5">
           <div className="row mt-5">
             <div className="col-md-12">

@@ -10,23 +10,25 @@ export const Header = (props) => {
   return (
     <>
       <div className={styles.header}>
-        <nav className="pt-3">
+        <nav className="pt-3 p-3">
           <div className="container d-flex justify-content-between align-items-center">
-            <span className={styles.logo}>
-              Launchpad
-              <span className={styles.logo2}> Studios.</span>
-            </span>
+            <Link href="/">
+              <a className={styles.logo}>
+                Launchpad
+                <span className={styles.logo2}> Studios.</span>
+              </a>
+            </Link>
 
             <div className={styles.navv_links}>
               <div className={styles.nav_links_inner}>
                 <Link href="/">
-                  <a className="mx-2 nav_link_a">Home</a>
+                  <a className={styles.nav_link_a}>Home</a>
                 </Link>
                 <Link href="/contact">
-                  <a className="mx-2 nav_link_a">Contact</a>
+                  <a className={styles.nav_link_a}>Contact</a>
                 </Link>
                 <Link href="/blog">
-                  <a className="mx-2 nav_link_a">Blog</a>
+                  <a className={styles.nav_link_a}>Blog</a>
                 </Link>
               </div>
 

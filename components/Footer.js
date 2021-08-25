@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // Import the fontawesomeIcon component
 import { faInstagram } from "@fortawesome/free-solid-svg-icons";
 import { NewsletterSubscribe } from "../components/newsletter/NewsletterSubscribe";
+import Link from "next/link";
 
 export const Footer = () => {
   const router = useRouter();
@@ -24,17 +25,17 @@ export const Footer = () => {
             </span>
 
             <div className={styles.footer_nav_links}>
-              <a href="#" className="footer_nav_link pt-3">
-                Home
-              </a>{" "}
+              <Link href="/">
+                <a className="footer_nav_link pt-3">Home</a>
+              </Link>
               <br />
-              <a href="#" className="footer_nav_link pt-3">
-                Blog
-              </a>{" "}
+              <Link href="/blog">
+                <a className="footer_nav_link pt-3">Blog</a>
+              </Link>
               <br />
-              <a href="#" className="footer_nav_link pt-3">
-                Contact
-              </a>{" "}
+              <Link href="/contact">
+                <a className="footer_nav_link pt-3">Contact</a>
+              </Link>
               <br />
             </div>
             <div className=" mt-3">

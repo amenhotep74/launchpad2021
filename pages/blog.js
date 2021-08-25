@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import styles from "../styles/Blog.module.scss";
-import menu from "../styles/Header.module.css";
+import menu from "../styles/Index.module.css";
 import blogimg from "../public/images/blog.png";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
@@ -104,11 +104,13 @@ const Blog = ({ posts }) => {
           </div>
         </section>
 
-        <section class="blog-list px-3 py-5 p-md-5">
-          <div class="container single-col-max-width w-50">
-            {posts.map((post, index) => (
-              <Post key={index} post={post} />
-            ))}
+        <section class="blog-list px-3 pb-5 p-md-5">
+          <div class="container single-col-max-width">
+            <div className={styles.blog_post_container}>
+              {posts.map((post, index) => (
+                <Post key={index} post={post} />
+              ))}
+            </div>
           </div>
         </section>
       </div>

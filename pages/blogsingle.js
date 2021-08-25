@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { Header } from "../components/Header";
 import styles from "../styles/Blog.module.css";
-import menu from "../styles/Header.module.css";
+import menu from "../styles/Index.module.css";
 import blogimg from "../public/images/blog.png";
 const Blogsingle = () => {
   const router = useRouter();

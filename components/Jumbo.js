@@ -32,12 +32,13 @@ export const Jumbo = () => {
               >
                 Discover How
               </button>
-              <p
+              <a
+                href="#work"
                 className={styles.see_our_work}
                 style={{ color: "#e17c67", marginleft: "2rem" }}
               >
                 See our work
-              </p>
+              </a>
             </div>
           </div>
 

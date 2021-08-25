@@ -50,7 +50,7 @@ export default function Contact() {
         <div className="text-center">
           <h1>Talk with us</h1>
           <p>
-            Fill in the form, or if you prefer, send us an email:
+            Fill in the form or if you prefer, send us an email:
             launchpadweb@protonweb.com
           </p>
         </div>
@@ -113,8 +113,8 @@ export default function Contact() {
               Tell us about your project
             </label>
             <div id="emailHelp" className="form-text mb-2">
-              Please tell us a bit about what your looking for, what services
-              you require, timeline etc.
+              Please tell us a bit about what your looking for, what you're want
+              to achieve, timeline etc.
             </div>
             <textarea
               type="details"

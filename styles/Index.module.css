@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 5;
 }
 
 .megamenu_container {
@@ -84,3 +85,13 @@
     text-align: center;
   }
 }
+
+/* Mega menu responsive */
+/* @media only screen and (max-width: 380px) {
+  .mobile_menu_container_btn {
+    display: inline-block;
+  }
+  .nav_links_inner {
+    display: none;
+  }
+} */

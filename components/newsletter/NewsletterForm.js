@@ -50,13 +50,13 @@ export const NewsletterForm = ({ status, message, onValidated }) => {
     <>
       <div class={styles.newsletterwrapper}>
         <div className="input-group mb-3 mt-4">
-          <label
+          {/* <label
             style={{ color: "#FFFFFF", textAlign: "left !important" }}
             htmlFor="exampleInputEmail1"
             className="form-label"
           >
             Newsletter
-          </label>
+          </label> */}
 
           <input
             type="email"

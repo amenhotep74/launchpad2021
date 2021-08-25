@@ -206,3 +206,25 @@ $theme-color-primary: #000000;
     }
   }
 }
+
+.blog_post_container {
+  width: 50%;
+  margin: 0 auto;
+}
+// Blog Archive mobile responsiveness
+@media only screen and (max-width: 1300px) {
+  .newsletterwrapper {
+    width: 80%;
+  }
+  .blog_post_container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .newsletterwrapper {
+    width: 100%;
+  }
+  .blog_post_container {
+    width: 100%;
+  }
+}
