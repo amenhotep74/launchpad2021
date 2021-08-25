@@ -65,7 +65,7 @@ export default function Home() {
                 <img
                   src="/images/svensisland.png"
                   style={{ objectFit: "cover", width: "100%", height: "auto" }}
-                  alt="website_preview"
+                  alt="svens-island"
                 />
               </a>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
                 <img
                   src="/images/angela2.png"
                   style={{ objectFit: "cover", width: "100%", height: "auto" }}
-                  alt="website_preview"
+                  alt="angela-cameron"
                 />
               </a>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
                 <img
                   src="/images/femme.png"
                   style={{ objectFit: "cover", width: "100%", height: "auto" }}
-                  alt="website_preview"
+                  alt="femme-organic"
                 />
               </a>
             </div>
