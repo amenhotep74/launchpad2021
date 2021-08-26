@@ -28,7 +28,7 @@ const handler = async (req, res) => {
   await mail
     .send(data)
     .then(() => {
-      res.status(200).json({ status: "OK" });
+      return res.status(200).json({ status: "OK" });
     })
     .catch((err) => {
       console.log(err);

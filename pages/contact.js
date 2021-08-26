@@ -32,7 +32,6 @@ export default function Contact() {
     })
       .then((response) => {
         console.log("RESPONSE ITSELF", response);
-        console.log("INSIDE RESPONSE");
         // if response status 200
         if (response.status == 200) {
           // clear errors
