@@ -6,7 +6,9 @@ mail.setApiKey(SENDGRID_API_KEY);
 
 console.log(SENDGRID_API_KEY);
 
-export default contact = async (req, res) => {
+export default async (req, res) => {
+  console.log("CONTACT ROUTE HIT");
+
   const body = JSON.parse(req.body);
 
   const message = `

@@ -26,22 +26,26 @@ export default function Contact() {
     };
     console.log(data);
 
-    fetch("/api/contact", {
+    fetch("/api/contactt", {
       method: "post",
       body: JSON.stringify(data),
-    }).then((response) => {
-      console.log("RESPONSE ITSELF", response);
-      console.log("INSIDE RESPONSE");
-      // if response status 200
-      if (response.status == 200) {
-        // clear errors
-        setError(false);
-        setSuccessAlert(true);
-      } else {
-        console.log(response);
-        setError(true);
-      }
-    });
+    })
+      .then((response) => {
+        console.log("RESPONSE ITSELF", response);
+        console.log("INSIDE RESPONSE");
+        // if response status 200
+        if (response.status == 200) {
+          // clear errors
+          setError(false);
+          setSuccessAlert(true);
+        } else {
+          console.log(response);
+          setError(true);
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
