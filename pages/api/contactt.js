@@ -25,15 +25,9 @@ const handler = async (req, res) => {
     html: message.replace(/\r\n/g, "<br />"),
   };
 
-  await mail
-    .send(data)
-    .then(() => {
-      return res.status(200).json({ status: "OK" });
-    })
-    .catch((err) => {
-      console.log(err);
-    });
+  await mail.send(data);
 
+  return res.status(200).json({ status: "OK" });
   // console.log(body);
 };
 
