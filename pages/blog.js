@@ -59,7 +59,7 @@ const Blog = ({ posts }) => {
       <div className="main-wrapper">
         <section className="cta-section theme-bg-light py-5">
           <div className="container text-center single-col-max-width">
-            <h2 className="heading">Recent Posts</h2>
+            <h1 className="heading">Recent Posts</h1>
             <div className="intro">
               Welcome to my blog. Subscribe and get my latest blog post in your
               inbox.

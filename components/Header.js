@@ -15,7 +15,7 @@ export const Header = (props) => {
             <Link href="/">
               <a className={styles.logo}>
                 Launchpad
-                <span className={styles.logo2}> Studios.</span>
+                <span className={styles.logo2}> Web.</span>
               </a>
             </Link>
 

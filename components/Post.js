@@ -37,7 +37,6 @@ export default function Post({ post }) {
         {/* <strong className="d-inline-block mb-2 text-primary">World</strong> */}
         <Link href={`/blog/${post.slug}`}>
           <a>
-            View Post
             <h3 className="mb-0">{post.frontmatter.title}</h3>
           </a>
         </Link>

@@ -20,7 +20,7 @@ export const Footer = () => {
                 className={styles.logo2}
                 style={{ fontWeight: "400", color: "white" }}
               >
-                Studios.
+                Web.
               </span>
             </span>
 
@@ -72,8 +72,12 @@ export const Footer = () => {
               <h4 style={{ color: "white", textAlign: "center" }}>
                 Get in touch.
               </h4>
+
+              <div className="d-flex justify-content-center mt-3 text-white">
+                <p>launchpadweb@protonmail.com</p>
+              </div>
               {/* Form here */}
-              <form>
+              {/* <form>
                 <label
                   style={{ color: "#FFFFFF", textAlign: "left !important" }}
                   htmlFor="exampleInputEmail1"
@@ -99,7 +103,7 @@ export const Footer = () => {
                 >
                   Submit
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>

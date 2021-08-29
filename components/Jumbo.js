@@ -4,6 +4,10 @@ import styles from "../styles/Jumbo.module.css";
 export const Jumbo = () => {
   const router = useRouter();
 
+  const discoverHow = () => {
+    router.push("/contact");
+  };
+
   return (
     <div style={{ background: "#24213B", height: "400px" }}>
       <div className="container">
@@ -29,6 +33,7 @@ export const Jumbo = () => {
                   borderRadius: "15px",
                 }}
                 className="btn header_btn"
+                onClick={discoverHow}
               >
                 Discover How
               </button>
