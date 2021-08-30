@@ -58,24 +58,32 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-md-8">
-            <div
-              style={{ background: "url('/images/svensisland.png')" }}
-              className={styles.work_image}
-            ></div>
+            <a href="#">
+              <div
+                style={{ background: "url('/images/svensisland.png')" }}
+                className={styles.work_image}
+              ></div>
+            </a>
             <div className="mt-3">
-              <h3 className={styles.work_title}>Svens Island</h3>
+              <h3 className={styles.work_title}>
+                <a href="#">Svens Island</a>
+              </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
               </span>
             </div>
           </div>
           <div className="col-md-4">
-            <div
-              style={{ background: "url('/images/femme.png')" }}
-              className={styles.work_image}
-            ></div>
+            <a href="#">
+              <div
+                style={{ background: "url('/images/femme.png')" }}
+                className={styles.work_image}
+              ></div>
+            </a>
             <div className="mt-3">
-              <h3 className={styles.work_title}>Femme Organic</h3>
+              <h3 className={styles.work_title}>
+                <a href="#">Femme Organic</a>
+              </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
               </span>
@@ -85,12 +93,17 @@ export default function Home() {
 
         <div className="row mt-5">
           <div className="col-md-8">
-            <div
-              style={{ background: "url('/images/louisboeglin.png')" }}
-              className={styles.work_image}
-            ></div>
+            <a href="#">
+              <div
+                style={{ background: "url('/images/louisboeglin.png')" }}
+                className={styles.work_image}
+              ></div>
+            </a>
+
             <div className="mt-3">
-              <h3 className={styles.work_title}>Louis Boeglin</h3>
+              <h3 className={styles.work_title}>
+                <a href="#">Louis Boeglin</a>
+              </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
               </span>
