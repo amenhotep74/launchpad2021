@@ -4,6 +4,7 @@
   font-weight: 400;
   color: white;
   font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
 }
 
 .header_text_highlight {
@@ -29,6 +30,11 @@
 }
 @media only screen and (max-width: 600px) {
   .text_left {
-    width: 100%;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text_left {
+    width: 70%;
   }
 }

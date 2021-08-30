@@ -14,13 +14,14 @@ export const Jumbo = () => {
         <div className="header mt-5 d-flex justify-content-between align-items-center">
           <div className={styles.text_left}>
             <h3 className={styles.header_text}>
-              We design, build and grow{" "}
-              <b className={styles.header_text_highlight}>results</b> driven
-              shopify services for small and large businesses. All under one
-              roof.
+              Shopify stores made for
+              <b className={styles.header_text_highlight}> results</b>.
             </h3>
 
-            <p className={styles.subtext}>Unlock your stores potential.</p>
+            <p className={styles.subtext}>
+              Unlock your stores potential, conversion driven shopify services
+              for small and large businesses. All under one roof.
+            </p>
 
             <div className={styles.button_grouping}>
               <button

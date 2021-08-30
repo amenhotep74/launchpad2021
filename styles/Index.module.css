@@ -95,3 +95,29 @@
     display: none;
   }
 } */
+
+/* Work Styles */
+.work_image {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 450px;
+  background-position: center !important;
+}
+
+.work_title {
+  font-weight: 600;
+}
+
+.work_subtitle {
+  color: #e17c67;
+  font-weight: 500;
+}
+
+.work_ourwork {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.work_ourprojects {
+  font-weight: 600;
+  font-size: 1.7rem;
+}

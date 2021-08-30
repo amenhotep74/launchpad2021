@@ -50,62 +50,62 @@ export default function Home() {
         <Jumbo />
       </div>
       {/* Work */}
-      <div id="work" className={styles.work}>
-        <div className="container mb-5">
-          <div className="row mt-5">
-            <div className="col-md-12">
-              <p style={{ fontWeight: "600", color: "#ffffff" }}>
-                Svens Island - Full Website Creation
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <a href="https://svensisland.com/">
-                <img
-                  src="/images/svensisland.png"
-                  style={{ objectFit: "cover", width: "100%", height: "auto" }}
-                  alt="svens-island"
-                />
-              </a>
-            </div>
-          </div>
 
-          <div className="row mt-5">
-            <div className="col-md-12">
-              <p style={{ fontWeight: "600" }}>
-                Angela Cameron - Full Website Creation
-              </p>
+      <div id="work" className="container mt-5 mb-5">
+        <div className="row">
+          <p className={styles.work_ourwork}>Our work</p>
+          <p className={styles.work_ourprojects}>Our recent projects</p>
+        </div>
+        <div className="row">
+          <div className="col-md-8">
+            <div
+              style={{ background: "url('/images/svensisland.png')" }}
+              className={styles.work_image}
+            ></div>
+            <div className="mt-3">
+              <h3 className={styles.work_title}>Svens Island</h3>
+              <span className={styles.work_subtitle}>
+                Full Website Creation
+              </span>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-12">
-              <a href="https://www.angelacameron.com/">
-                <img
-                  src="/images/angela2.png"
-                  style={{ objectFit: "cover", width: "100%", height: "auto" }}
-                  alt="angela-cameron"
-                />
-              </a>
+          <div className="col-md-4">
+            <div
+              style={{ background: "url('/images/femme.png')" }}
+              className={styles.work_image}
+            ></div>
+            <div className="mt-3">
+              <h3 className={styles.work_title}>Femme Organic</h3>
+              <span className={styles.work_subtitle}>
+                Full Website Creation
+              </span>
             </div>
           </div>
+        </div>
 
-          <div className="row mt-5">
-            <div className="col-md-12">
-              <p style={{ fontWeight: "600" }}>
-                Femme Organic - Full Website Creation
-              </p>
+        <div className="row mt-5">
+          <div className="col-md-8">
+            <div
+              style={{ background: "url('/images/louisboeglin.png')" }}
+              className={styles.work_image}
+            ></div>
+            <div className="mt-3">
+              <h3 className={styles.work_title}>Louis Boeglin</h3>
+              <span className={styles.work_subtitle}>
+                Full Website Creation
+              </span>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-12">
-              <a href="https://femmeorganic.com/">
-                <img
-                  src="/images/femme.png"
-                  style={{ objectFit: "cover", width: "100%", height: "auto" }}
-                  alt="femme-organic"
-                />
-              </a>
+          <div className="col-md-4">
+            <div
+              style={{ background: "url('/images/lenzo.png')" }}
+              className={styles.work_image}
+            ></div>
+            <div className="mt-3">
+              <h3 className={styles.work_title}>Lenzo</h3>
+              <span className={styles.work_subtitle}>
+                Full Website Creation
+              </span>
             </div>
           </div>
         </div>
