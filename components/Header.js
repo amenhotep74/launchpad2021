@@ -27,9 +27,9 @@ export const Header = (props) => {
                 <Link href="/contact">
                   <a className={styles.nav_link_a}>Contact</a>
                 </Link>
-                <Link href="/blog">
+                {/* <Link href="/blog">
                   <a className={styles.nav_link_a}>Blog</a>
-                </Link>
+                </Link> */}
               </div>
 
               {!props.isOpen ? (

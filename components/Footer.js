@@ -29,10 +29,9 @@ export const Footer = () => {
                 <a className="footer_nav_link pt-3">Home</a>
               </Link>
               <br />
-              <Link href="/blog">
+              {/* <Link href="/blog">
                 <a className="footer_nav_link pt-3">Blog</a>
-              </Link>
-              <br />
+              </Link> */}
               <Link href="/contact">
                 <a className="footer_nav_link pt-3">Contact</a>
               </Link>
