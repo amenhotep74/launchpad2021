@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Header = (props) => {
   const router = useRouter();
 
-  console.log(props);
+  // console.log(props);
 
   return (
     <>

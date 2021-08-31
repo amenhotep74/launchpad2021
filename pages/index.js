@@ -52,9 +52,9 @@ export default function Home() {
       {/* Work */}
 
       <div id="work" className="container mt-5 mb-5">
-        <div className="row">
+        <div className="row mb-4">
           <p className={styles.work_ourwork}>Our work</p>
-          <p className={styles.work_ourprojects}>Our recent projects</p>
+          <p className={styles.work_ourprojects}>Recent Projects</p>
         </div>
         <div className="row">
           <div className="col-md-8">

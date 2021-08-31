@@ -36,26 +36,26 @@ export default function Contact() {
       website,
       message,
     };
-    console.log(data);
+    // console.log(data);
 
     fetch("/api/contactt", {
       method: "post",
       body: JSON.stringify(data),
     })
       .then((response) => {
-        console.log("RESPONSE ITSELF", response);
+        // console.log("RESPONSE ITSELF", response);
         // if response status 200
         if (response.status == 200) {
           // clear errors
           setError(false);
           setSuccessAlert(true);
         } else {
-          console.log(response);
+          // console.log(response);
           setError(true);
         }
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
       });
   };
 
