@@ -37,7 +37,7 @@ export const Footer = () => {
               </Link>
               <br />
             </div>
-            <div className=" mt-3">
+            <div className="mt-3 mb-3">
               <div className="footer_social_links" style={{}}>
                 <a style={{ color: "white" }} href="#">
                   <img
