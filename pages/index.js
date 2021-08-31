@@ -34,12 +34,12 @@ export default function Home() {
             <Link href="/">
               <a className={styles.megamenu_a}>Home</a>
             </Link>
-            <Link href="/blog">
+            <Link href="/contact">
               <a className={styles.megamenu_a}>Contact</a>
             </Link>
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <a className={styles.megamenu_a}>Blog</a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       )}

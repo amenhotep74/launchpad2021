@@ -5,6 +5,8 @@ import styles from "../styles/Contact.module.scss";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 import axios from "axios";
+import Link from "next/link";
+import menustyles from "../styles/Index.module.css";
 
 export default function Contact() {
   const router = useRouter();
@@ -15,6 +17,15 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(false);
   const [successAlert, setSuccessAlert] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
+  const openMenu = () => {
+    setIsOpen(true);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -50,7 +61,33 @@ export default function Contact() {
 
   return (
     <>
-      <Header />
+      {/* Mega menu */}
+      {isOpen && (
+        <div className={menustyles.overlay}>
+          <button onClick={closeMenu} className={menustyles.btn_close}>
+            <img
+              src="/icons/times-solid.svg"
+              className={menustyles.times}
+              alt="close_menu"
+            />
+          </button>
+
+          <div className={menustyles.megamenu_container}>
+            <Link href="/">
+              <a className={menustyles.megamenu_a}>Home</a>
+            </Link>
+            <Link href="/contact">
+              <a className={menustyles.megamenu_a}>Contact</a>
+            </Link>
+            {/* <Link href="/contact">
+              <a className={styles.megamenu_a}>Blog</a>
+            </Link> */}
+          </div>
+        </div>
+      )}
+      {/* End mega menu */}
+
+      <Header isOpen={isOpen} openMenu={openMenu} />
       <div className="container mt-5">
         <div className="text-center">
           <h1>Talk with us</h1>
