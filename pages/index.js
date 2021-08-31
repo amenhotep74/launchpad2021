@@ -58,7 +58,7 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-md-8">
-            <a href="#">
+            <a href="https://svensisland.com/">
               <div
                 style={{ background: "url('/images/svensisland.png')" }}
                 className={styles.work_image}
@@ -66,7 +66,7 @@ export default function Home() {
             </a>
             <div className="mt-3">
               <h3 className={styles.work_title}>
-                <a href="#">Svens Island</a>
+                <a href="https://svensisland.com/">Svens Island</a>
               </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-4">
-            <a href="#">
+            <a href="https://femmeorganic.com/">
               <div
                 style={{ background: "url('/images/femme.png')" }}
                 className={styles.work_image}
@@ -82,7 +82,7 @@ export default function Home() {
             </a>
             <div className="mt-3">
               <h3 className={styles.work_title}>
-                <a href="#">Femme Organic</a>
+                <a href="https://femmeorganic.com/">Femme Organic</a>
               </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
@@ -93,7 +93,7 @@ export default function Home() {
 
         <div className="row mt-5">
           <div className="col-md-8">
-            <a href="#">
+            <a href="https://louisboeglin.com/">
               <div
                 style={{ background: "url('/images/louisboeglin.png')" }}
                 className={styles.work_image}
@@ -102,7 +102,7 @@ export default function Home() {
 
             <div className="mt-3">
               <h3 className={styles.work_title}>
-                <a href="#">Louis Boeglin</a>
+                <a href="https://louisboeglin.com/">Louis Boeglin</a>
               </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
@@ -110,12 +110,16 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-4">
-            <div
-              style={{ background: "url('/images/lenzo.png')" }}
-              className={styles.work_image}
-            ></div>
+            <a href="https://lenzo.com.au/">
+              <div
+                style={{ background: "url('/images/lenzo.png')" }}
+                className={styles.work_image}
+              ></div>
+            </a>
             <div className="mt-3">
-              <h3 className={styles.work_title}>Lenzo</h3>
+              <h3 className={styles.work_title}>
+                <a href="https://lenzo.com.au/">Lenzo</a>
+              </h3>
               <span className={styles.work_subtitle}>
                 Full Website Creation
               </span>
