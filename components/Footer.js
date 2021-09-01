@@ -39,7 +39,7 @@ export const Footer = () => {
             </div>
             <div className="mt-3 mb-3">
               <div className="footer_social_links" style={{}}>
-                <a style={{ color: "white" }} href="#">
+                {/* <a style={{ color: "white" }} href="#">
                   <img
                     alt="youtube_icon"
                     style={{ maxWidth: "36px", height: "auto" }}
@@ -54,15 +54,15 @@ export const Footer = () => {
                     className={styles.icon_instagram}
                     src="/icons/instagram-brands.svg"
                   />
-                </a>
-                <a style={{ color: "white" }} href="#">
+                </a> */}
+                {/* <a style={{ color: "white" }} href="#">
                   <img
                     alt="facebook_icon"
                     style={{ maxWidth: "28px", height: "auto" }}
                     className={styles.icon_fb}
                     src="/icons/facebook-brands.svg"
                   />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
